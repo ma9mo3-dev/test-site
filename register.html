@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>إنشاء حساب</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="bear">
+      <div class="ears">
+        <div class="ear left-ear"></div>
+        <div class="ear right-ear"></div>
+      </div>
+      <div class="face">
+        <div class="eyes">
+          <div class="eye" id="left-eye"><div class="pupil" id="left-pupil"></div></div>
+          <div class="eye" id="right-eye"><div class="pupil" id="right-pupil"></div></div>
+        </div>
+        <div class="nose"></div>
+        <div class="mouth"></div>
+      </div>
+    </div>
+
+    <div class="form-box">
+      <h2>إنشاء حساب جديد</h2>
+      <form id="register-form">
+        <input type="text" id="username" placeholder="اسم المستخدم" required>
+        <input type="email" id="email" placeholder="البريد الإلكتروني" required>
+        
+        <div class="password-box">
+          <input type="password" id="password" placeholder="كلمة السر" required>
+          <button type="button" id="toggle-password">👁</button>
+        </div>
+
+        <div class="password-box">
+          <input type="password" id="confirm-password" placeholder="تأكيد كلمة السر" required>
+        </div>
+
+        <button type="submit">تسجيل</button>
+        <p class="link">لدي حساب بالفعل؟ <span id="go-login">تسجيل دخول</span></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="register.js"></script>
+</body>
+          </html>
