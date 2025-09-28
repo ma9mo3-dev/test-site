@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>تسجيل الدخول</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="bear">
+      <div class="ears">
+        <div class="ear left-ear"></div>
+        <div class="ear right-ear"></div>
+      </div>
+      <div class="face">
+        <div class="eyes">
+          <div class="eye" id="left-eye"><div class="pupil" id="left-pupil"></div></div>
+          <div class="eye" id="right-eye"><div class="pupil" id="right-pupil"></div></div>
+        </div>
+        <div class="nose"></div>
+        <div class="mouth"></div>
+      </div>
+    </div>
+
+    <div class="form-box">
+      <h2>تسجيل الدخول</h2>
+      <form id="login-form">
+        <input type="email" id="email" placeholder="البريد الإلكتروني" required>
+        
+        <div class="password-box">
+          <input type="password" id="password" placeholder="كلمة السر" required>
+          <button type="button" id="toggle-password">👁</button>
+        </div>
+
+        <button type="submit">دخول</button>
+        <p class="link">ليس لدي حساب؟ <span id="go-register">إنشاء حساب</span></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+                                            </html>
